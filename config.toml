@@ -28,7 +28,7 @@ enableEmoji=true
 	[params.author]
 		name = "Ryan B. Lynch"
 		description = "What's a blog for? For blogging, silly."
-		avatar = "https://raw.githubusercontent.com/RyanBLynch/ryanblynch.github.io/source/static/images/avatar.jpg"
+		avatar = "https://raw.githubusercontent.com/RyanBLynch/ryanblynch.github.io/master/static/images/avatar.jpg"
 		motto = "Sure, why not?"
 
 	[params.features]
