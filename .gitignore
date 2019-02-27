@@ -1,0 +1,10 @@
+# Jetbrains IDE
+/.idea/
+
+# generated files by hugo
+/public/
+/resources/_gen/
+
+# OS X
+.DS_Store
+

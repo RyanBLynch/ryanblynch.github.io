@@ -1,0 +1,58 @@
+baseURL = "https://ryanblynch.github.io"
+title = "Ryan B. Lynch's Blog"
+theme = "dream-plus"
+themesDir = "themes"
+paginate = 4
+enableRobotsTXT = true
+
+#Skip building these files
+ignoreFiles = ["content/404.md", "content/about.md", "content/cards/\\.*"]
+
+#Syntax highlighting
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+pygmentsOptions = "linenos=table"
+
+#Enable Hugo Emoji Conversion
+enableEmoji=true
+
+[params]
+	#Favicon for site
+	favicon = "/img/defaultFav.ico"
+
+	#Set whether you're hosting "cards" or "post"
+	contentType = "posts"
+	
+	siteStartYear = 2019
+
+	[params.author]
+		name = "Ryan B. Lynch"
+		description = "What's a blog for? For blogging, silly."
+		avatar = "https://raw.githubusercontent.com/RyanBLynch/ryanblynch.github.io/source/static/images/avatar.jpg"
+		motto = "Sure, why not?"
+
+	[params.features]
+		#Enable Twitter Emoji
+		twitterEmoji = true
+		#Enable Table of Contents
+		toc = true
+		#Enable share card
+		shareCard = true
+		#Use custom CSS
+		customCSS = ["https://cdn.rawgit.com/UtkarshVerma/hugo-dream-plus/ae11561d/exampleSite/static/css/highlight.css"]
+
+	[params.background]
+		colorBG = true
+
+	#Tags settings
+	[params.tags]
+		enabled = true
+
+	#Categories settings
+	[params.categories]
+		enabled = true
+
+[social]
+	email = "ryan.b.lynch@gmail.com"
+	facebook = "ryan.b.lynch"
+	github = "RyanBLynch"
